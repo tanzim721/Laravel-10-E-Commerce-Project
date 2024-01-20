@@ -117,8 +117,7 @@
                             <div class="menu-left">
                                 <div class="brand-logo">
                                     <a href="index.htm">
-                                        <img src="{{asset('assets/images/logo.png')}}" class="h-logo img-fluid blur-up lazyload"
-                                            alt="logo">
+                                        <img src="{{asset('assets/images/logo.png')}}" class="h-logo img-fluid lazyload" alt="logo">
                                     </a>
                                 </div>
                             </div>
@@ -260,7 +259,7 @@
                         <div class="footer-contact">
                             <div class="brand-logo">
                                 <a href="index.htm" class="footer-logo float-start">
-                                    <img src="{{asset('assets/images/logo.png')}}" class="f-logo img-fluid blur-up lazyload"
+                                    <img src="{{asset('assets/images/logo.png')}}" class="f-logo img-fluid lazyload"
                                         alt="logo">
                                 </a>
                             </div>
@@ -381,25 +380,25 @@
                             <li class="font-dark">We accept:</li>
                             <li>
                                 <a href="javascript:void(0)">
-                                    <img src="{{asset('assets/images/payment-icon/1.jpg')}}" class="img-fluid blur-up lazyload"
+                                    <img src="{{asset('assets/images/payment-icon/1.jpg')}}" class="img-fluid lazyload"
                                         alt="payment icon">
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)">
-                                    <img src="assets/images/payment-icon/2.jpg" class="img-fluid blur-up lazyload"
+                                    <img src="assets/images/payment-icon/2.jpg" class="img-fluid lazyload"
                                         alt="payment icon">
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)">
-                                    <img src="assets/images/payment-icon/3.jpg" class="img-fluid blur-up lazyload"
+                                    <img src="assets/images/payment-icon/3.jpg" class="img-fluid lazyload"
                                         alt="payment icon">
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)">
-                                    <img src="assets/images/payment-icon/4.jpg" class="img-fluid blur-up lazyload"
+                                    <img src="assets/images/payment-icon/4.jpg" class="img-fluid lazyload"
                                         alt="payment icon">
                                 </a>
                             </li>
@@ -420,7 +419,7 @@
                 </div>
 
                 <div class="modal-body">
-                    <img src="assets/images/newletter-icon.png" class="img-fluid blur-up lazyload" alt="">
+                    <img src="assets/images/newletter-icon.png" class="img-fluid lazyload" alt="">
                     <div class="modal-title">
                         <h2 class="tt-title">Sign up for our Newsletter!</h2>
                         <p class="font-light">Never miss any new updates or products we reveal, stay up to date.</p>
@@ -457,7 +456,7 @@
                             </div>
                             <div class="modal-product">
                                 <div class="modal-contain-img">
-                                    <img src="assets/images/fashion/instagram/4.jpg" class="img-fluid blur-up lazyload"
+                                    <img src="assets/images/fashion/instagram/4.jpg" class="img-fluid lazyload"
                                         alt="">
                                 </div>
                                 <div class="modal-contain-details">
@@ -491,7 +490,7 @@
                                                     <div class="front">
                                                         <a href="product/details.html">
                                                             <img src="assets/images/fashion/product/front/1.jpg"
-                                                                class="bg-img blur-up lazyload" alt="">
+                                                                class="bg-img lazyload" alt="">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -512,7 +511,7 @@
                                                     <div class="front">
                                                         <a href="product/details.html">
                                                             <img src="assets/images/fashion/product/front/2.jpg"
-                                                                class="bg-img blur-up lazyload" alt="">
+                                                                class="bg-img lazyload" alt="">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -533,7 +532,7 @@
                                                     <div class="front">
                                                         <a href="product/details.html">
                                                             <img src="assets/images/fashion/product/front/3.jpg"
-                                                                class="bg-img blur-up lazyload" alt="">
+                                                                class="bg-img lazyload" alt="">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -554,7 +553,7 @@
                                                     <div class="front">
                                                         <a href="product/details.html">
                                                             <img src="assets/images/fashion/product/front/4.jpg"
-                                                                class="bg-img blur-up lazyload" alt="">
+                                                                class="bg-img lazyload" alt="">
                                                         </a>
                                                     </div>
                                                 </div>
