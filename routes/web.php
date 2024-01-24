@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AppController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ShopController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,7 @@ use App\Http\Controllers\AdminController;
 */
 
 Route::get('/', [AppController::class, 'index'])->name('app.index');
+Route::get('/shop', [ShopController::class, 'index'])->name('shop.index');
 
 Auth::routes();
 
@@ -27,5 +29,5 @@ Route::middleware('auth')->group(function(){
 
 Route::middleware(['auth','auth.admin'])->group(function(){
     Route::get('/admin', [AdminController::class, 'index'])->name('admin.index');
-
+    
 });

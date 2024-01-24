@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.base')
 
 @section('content')
 <style>
@@ -71,7 +71,7 @@
                     </div>
                     <div class="input">
                         <label for="name">Username</label>
-                        <input type="email" id="name" name="email" :value="old('email')" required="" autofocus="" autocomplete="name">
+                        <input type="email" id="name" name="email" class="block mt-1 w-full" required="" autofocus="" autocomplete="name">
                         @error('email')
                             <span class="text-danger mt-3" role="alert">
                                 <strong>{{ $message }}</strong>
