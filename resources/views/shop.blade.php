@@ -445,7 +445,7 @@
                     <!-- Prodcut setion -->
                     <div
                         class="row g-sm-4 g-3 row-cols-lg-4 row-cols-md-3 row-cols-2 mt-1 custom-gy-5 product-style-2 ratio_asos product-list-section">
-
+                        @foreach($products as $product)
                         <div>
                             <div class="product-box">
                                 <div class="img-wrapper">
@@ -519,7 +519,6 @@
                             </div>
                         </div>
 
-
                         <div>
                             <div class="product-box">
                                 <div class="img-wrapper">
@@ -592,7 +591,6 @@
                                 </div>
                             </div>
                         </div>
-
 
                         <div>
                             <div class="product-box">
@@ -668,7 +666,6 @@
                             </div>
                         </div>
 
-
                         <div>
                             <div class="product-box">
                                 <div class="img-wrapper">
@@ -742,7 +739,6 @@
                             </div>
                         </div>
 
-
                         <div>
                             <div class="product-box">
                                 <div class="img-wrapper">
@@ -815,7 +811,6 @@
                             </div>
                         </div>
 
-
                         <div>
                             <div class="product-box">
                                 <div class="img-wrapper">
@@ -887,7 +882,6 @@
                                 </div>
                             </div>
                         </div>
-
 
                         <div>
                             <div class="product-box">
@@ -962,7 +956,6 @@
                             </div>
                         </div>
 
-
                         <div>
                             <div class="product-box">
                                 <div class="img-wrapper">
@@ -1035,7 +1028,6 @@
                                 </div>
                             </div>
                         </div>
-
 
                         <div>
                             <div class="product-box">
@@ -1110,7 +1102,6 @@
                             </div>
                         </div>
 
-
                         <div>
                             <div class="product-box">
                                 <div class="img-wrapper">
@@ -1184,7 +1175,6 @@
                             </div>
                         </div>
 
-
                         <div>
                             <div class="product-box">
                                 <div class="img-wrapper">
@@ -1256,7 +1246,6 @@
                                 </div>
                             </div>
                         </div>
-
 
                         <div>
                             <div class="product-box">
@@ -1330,7 +1319,7 @@
                                 </div>
                             </div>
                         </div>
-
+                        @endforeach
 
                     </div>
                     <nav class="page-section">
