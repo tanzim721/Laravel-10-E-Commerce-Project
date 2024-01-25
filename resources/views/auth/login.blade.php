@@ -67,7 +67,7 @@
                     @csrf
                     <input type="hidden" name="_token" value="MkRqEzTGuoSx6LqJUm0OAKxSgNUYt26wTT7RMUZY">
                     <div class="login-title">
-                        <h2>Login</h2>
+                        <h2>Login Form</h2>
                     </div>
                     <div class="input">
                         <label for="name">Username</label>
@@ -78,7 +78,6 @@
                             </span>
                         @enderror
                     </div>
-
                     <div class="input">
                         <label for="pass">Password</label>
                         <input type="password" id="pass" class="block mt-1 w-full" name="password" required="" autocomplete="current-password">

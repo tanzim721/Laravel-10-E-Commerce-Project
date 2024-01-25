@@ -30,7 +30,7 @@
                 <form method="POST" action="{{route('register')}}">
                     @csrf 
                     <div class="login-title">
-                        <h2>Register</h2>
+                        <h2>Register Form</h2>
                     </div>
 
                     <div class="input">
